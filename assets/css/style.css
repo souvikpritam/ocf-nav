@@ -1,0 +1,146 @@
+body {
+	padding: 0;
+	margin:0;
+}
+
+/*-==== ocf--nav--v2 ===-*/
+.ocf--nav--v2 {
+    overflow: hidden;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.ocf--nav--v2 .ocf--brand {
+    float: left;
+    padding: 20px 0px;
+}
+.ocf--nav--v2 .ocf--brand a {
+    height: 40px;
+    display: block;
+    overflow: hidden;
+}
+.ocf--nav--v2 .ocf--brand a img {
+    height: 100%;
+}
+.ocf--nav--v2 .ocf--user--direction--wrapper {
+    float: right;
+}
+.ocf--nav--v2 .ocf--navigation {
+    float: left;
+}
+.ocf--nav--v2 .ocf--navigation nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.ocf--nav--v2 .ocf--navigation nav ul li {
+    display: inline-block;
+}
+.ocf--nav--v2 .ocf--navigation ul li a {
+    color: #575755;
+    font-size: 18px;
+    font-weight: 700;
+    display: inherit;
+    line-height: 16px;
+    padding: 35px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: color 0.3s ease;
+    position: relative;
+}
+.ocf--nav--v2 .ocf--navigation ul li a:before {
+    width: 1px;
+    content: '';
+    height: 20px;
+    right: 0px;
+    position: absolute;
+    background-color: #ddd;
+}
+
+.ocf--nav--v2 .ocf--navigation ul li:last-child a:before {
+    content: none;
+}
+.ocf--nav--v2 .ocf--navigation ul li a:hover {
+    color: #98BE0F;
+
+}
+
+.ocf--nav--v2 .ocf--navigation--attributes {
+    float: left;
+}
+.ocf--nav--v2 .ocf--navigation--attributes a {
+    color: #575755;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.ocf--nav--v2 .ocf--navigation--attributes .ocf--attributes--icon {
+    display: inline-block;
+    padding: 32px 15px;
+}
+.ocf--nav--v2 .ocf--navigation--attributes .ocf--attributes--icon span {
+    position: relative;
+    top: -3px;
+    margin-left: 6px;
+}
+
+a.ocf--attributes--icon:hover {
+    color: #98BE0F;
+    transition: color 0.3s ease; 
+}
+
+.ocf--nav--v2 .ocf--navigation--attributes .ocf--attributes--icon span:hover {
+
+}
+.ocf--nav--v2 .ocf--navigation--attributes .ocf--attributes--icon svg {
+    height: 20px;
+}
+
+.ocf--attributes--icon svg:hover {
+    fill: #98BE0F;
+    transition: fill 0.3s ease;
+}
+
+.ocf--nav--v2 .ocf--navigation--attributes .ocf--attributes--btn--1 {
+    position: relative;
+    top: -3px;
+    border: 1px solid #98BE0F;
+    padding: 8px 25px;
+    color: #98BE0F;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.ocf--nav--v2 .ocf--navigation--attributes .ocf--attributes--btn--2 {
+    position: relative;
+    top: -3px;
+    border: 1px solid #98BE0F;
+    padding: 8px 25px;
+    color: #fff;
+    font-size: 14px;
+    background: #98BE0F;
+    transition: all 0.3s ease;   
+}
+.ocf--nav--v2 .ocf--navigation--attributes .ocf--attributes--btn--2 {
+    margin-left: 18px;
+}
+
+.ocf--nav--v2 .ocf--navigation--attributes .ocf--attributes--btn--1:hover {
+    background: #98BE0F;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+
+.ocf--nav--v2 .ocf--navigation--attributes .ocf--attributes--btn--2:hover {
+    color: #fff;
+    background-color: #66800A;
+    border: 1px solid #66800A;
+    transition: all 0.3s ease;
+} 
+
+/*-==== End of ocf--nav--v2 ===-*/
+
